@@ -354,3 +354,16 @@ h6,
 .blog-item:hover img {
     transform: scale(1.1);
 }
+html::-webkit-scrollbar{
+    width:8px;
+    
+  }
+  
+html::-webkit-scrollbar-track{
+    visibility: hidden;
+}
+  
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(#feb89d,#feb89d,#feb89d);
+    border-radius: 8px;
+  }
