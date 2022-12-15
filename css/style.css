@@ -57,7 +57,14 @@ h6,
     color:#8fdd00 !important
 }
 .d-block{
-    background-color: #7ea23b !important;
+    background-color: transparent !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.d-block div{
+    background-color: #000;
 }
 .btn {
     font-family: 'Barlow', sans-serif;
@@ -112,12 +119,14 @@ h6,
     transform: skew(40deg);
 }
 
+.nav-colored { background-color:#000 !important; }
+.nav-transparent { background-color:transparent !important;}
 .navbar{
-    background-color: #000d !important;
+    
     color:#eee !important;
-    position:sticky;
+    position:fixed;
     top:0;
-    z-index:1020
+    z-index:1020    
 }
 .navbar-inner {
     background:transparent;
@@ -174,7 +183,7 @@ h6,
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,0);
     top: -60vh;
     left: 0;
     display: flex;
