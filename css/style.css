@@ -386,3 +386,6 @@ h6,
   ::-webkit-scrollbar-thumb:hover {
     background-color: #fff;
   }
+.vid{
+    text-align: center;
+}
